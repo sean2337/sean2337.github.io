@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 160%;
+}
+
+body{ 
+  width: 100%;
+  height: 600px;
+  background-color: lightgray;
+  background: linear-gradient(to right bottom, lightgray, white);
+  border-top: 4px solid snow;
+  border-bottom: 4px solid snow;
+  margin-top: 50px; 
+}
+
+.headerr{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  text-decoration-line : none;
+  color: green;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 20px;                                                                     ;    `
+}
+
+button:hover{
+  background-color: black;
+  width:150px;
+  height: auto;
+}
+
+.title{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 10px;
+  text-shadow: 2px 2px gray;
+  display: block;
+}
+
+#char{
+  display: inline-block;
+}
+
+.choose{
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+.myphoto{
+  width: 50%;
+}
+
+.myphoto img {
+  transition-property: width, height;
+  transition-duration: 1s,1s;
+}
+
+.myphoto > img:hover{
+  width:60%;
+  height: auto;
+}
+
+img{
+  margin: 10px;; 
+  border-radius: 25px;
+}
+
+.section{
+ width: 100%;
+ height: 600px;
+ display: flex;
+ align-items: center;
+}
+.section1{
+  width: 60%;
+  margin-right: 10%;
+  float: left;
+  margin-bottom: 100px;
+}
+
+li{
+  margin: 5px;
+  font-size: 18px;
+}
+
+#topline{
+  border-top: 2px solid white;
+}
+
+a[title |= insta]{
+  padding: 5px 25px;
+  background: url("images/photo4.jpeg") no-repeat left center;
+  background-size: 20px;
+}
+
+a[title |= facebook]{
+  padding: 5px 25px;
+  background: url("images/photo5.png") no-repeat left center;
+  background-size: 18px;
+}
+
+a[title |= blog]{
+  padding: 5px 25px;
+  background: url("images/photo6.png") no-repeat left center;
+  background-size: 18px;
+}
+
+nav{
+  text-align: right;
+  border: 2px solid white;
+  float: right;
+  margin-right: 10px;
+  padding-left: 20px
+}
+ #sns{
+  display: inline-block;
+  margin-right: 30px;
+ }
+
+ .again{
+   margin-left: 10%;
+   float: left;
+ }
+
+ footer{
+   height: 30px;
+   width: 100%;
+   position: sticky;
+   bottom: 20px;
+ }
